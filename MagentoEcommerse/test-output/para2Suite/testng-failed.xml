@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [para2Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="para2Test2(failed)">
+    <parameter name="browsers" value="firefox"/>
+    <classes>
+      <class name="crossbrowserTESTNG.Verifypant">
+        <methods>
+          <include name="verifytobuyMithraWarpuppant"/>
+          <include name="closewindow"/>
+          <include name="closebrowser"/>
+          <include name="enterurlofapplication"/>
+          <include name="luanchingbrowser"/>
+          <include name="objectofpom"/>
+        </methods>
+      </class> <!-- crossbrowserTESTNG.Verifypant -->
+      <class name="crossbrowserTESTNG.Verifyhoodie">
+        <methods>
+          <include name="closethebrowser"/>
+          <include name="enterurlofapplication"/>
+          <include name="VerifySecondproductchoose"/>
+          <include name="launchbrowser"/>
+          <include name="createpomobjects"/>
+          <include name="closewindow"/>
+        </methods>
+      </class> <!-- crossbrowserTESTNG.Verifyhoodie -->
+    </classes>
+  </test> <!-- para2Test2(failed) -->
+</suite> <!-- Failed suite [para2Suite] -->

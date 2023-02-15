@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Suitecombo]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="Testcombofirefox(failed)">
+    <parameter name="browsers" value="firefox"/>
+    <classes>
+      <class name="crossbrowserTESTNG.Verifypant">
+        <methods>
+          <include name="verifytobuyMithraWarpuppant"/>
+          <include name="closewindow"/>
+          <include name="closebrowser"/>
+          <include name="enterurlofapplication"/>
+          <include name="luanchingbrowser"/>
+          <include name="objectofpom"/>
+        </methods>
+      </class> <!-- crossbrowserTESTNG.Verifypant -->
+    </classes>
+  </test> <!-- Testcombofirefox(failed) -->
+</suite> <!-- Failed suite [Suitecombo] -->
