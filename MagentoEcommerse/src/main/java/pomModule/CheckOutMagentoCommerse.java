@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class CheckOutMagentoCommerse {
 	
+	//jayesh
 
 	@FindBy(xpath="(//input[@type='text'])[1]")
 	private WebElement Firstname;
