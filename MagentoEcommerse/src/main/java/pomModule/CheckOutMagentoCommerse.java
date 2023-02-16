@@ -10,11 +10,11 @@ public class CheckOutMagentoCommerse {
 	
 	//jayesh
 
-	@FindBy(xpath="(//input[@type='text'])[1]")
-	private WebElement Firstname;
+	//@FindBy(xpath="(//input[@type='text'])[1]")
+	//private WebElement Firstname;
 
-	@FindBy(xpath="(//input[@type='text'])[2]")
-	private WebElement Lastname;
+	//@FindBy(xpath="(//input[@type='text'])[2]")
+	//private WebElement Lastname;
 
 	@FindBy(xpath="//input[@id='PAS1VMC']")
 	private WebElement Street;
@@ -22,20 +22,20 @@ public class CheckOutMagentoCommerse {
 	@FindBy(xpath="//input[@id='T5GLOSX']")
 	private WebElement City;
 
-	@FindBy(xpath="//select[@id='DYV8PRQ']")
-	private WebElement State;
+	//@FindBy(xpath="//select[@id='DYV8PRQ']")
+	//private WebElement State;
 
-	@FindBy(xpath="(//input[@type='text'])[9]")
-	private WebElement ZipCode;
+	//@FindBy(xpath="(//input[@type='text'])[9]")
+	//private WebElement ZipCode;
 
-	@FindBy(xpath="(//select[@class=\"select\"])[2]")
-	private WebElement Country;
+	//@FindBy(xpath="(//select[@class=\"select\"])[2]")
+	//private WebElement Country;
 
 	@FindBy(xpath="(//input[@type='text'])[10]")
 	private WebElement PhoneNumber;
 
-	@FindBy(xpath="(//input[@type=\"radio\"])[1]")
-	private WebElement ShippingMethod;
+	//@FindBy(xpath="(//input[@type=\"radio\"])[1]")
+	//private WebElement ShippingMethod;
 
 	@FindBy(xpath="//span[text()='Next']")
 	private WebElement NextButton;
